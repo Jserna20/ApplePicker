@@ -230,7 +230,35 @@ Prefab:
     - target: {fileID: 114106336214423450, guid: d747b8427f9f6b942ab9aef86b6018ef,
         type: 2}
       propertyPath: chanceToChangeDirections
-      value: 0.02
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114106336214423450, guid: d747b8427f9f6b942ab9aef86b6018ef,
+        type: 2}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1622445387888906, guid: 47c2159cd1516e94aae0b80beca0b52f,
+        type: 2}
+    - target: {fileID: 54668687348286456, guid: d747b8427f9f6b942ab9aef86b6018ef,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114106336214423450, guid: d747b8427f9f6b942ab9aef86b6018ef,
+        type: 2}
+      propertyPath: secondsBetweenAppleDrops
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1970426054595696, guid: d747b8427f9f6b942ab9aef86b6018ef, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491298851508696, guid: d747b8427f9f6b942ab9aef86b6018ef, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751682263085036, guid: d747b8427f9f6b942ab9aef86b6018ef, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d747b8427f9f6b942ab9aef86b6018ef, type: 2}
@@ -246,6 +274,7 @@ GameObject:
   - component: {fileID: 1763717970}
   - component: {fileID: 1763717969}
   - component: {fileID: 1763717968}
+  - component: {fileID: 1763717972}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -316,3 +345,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1763717972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763717967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f701e2df5b2fc4bb7217118fcd28e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 1796760314313188, guid: 5b34a151dd67bcb40bf627cabd6000f7,
+    type: 2}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
