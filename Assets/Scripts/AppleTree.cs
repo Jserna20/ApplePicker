@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AppleTree : MonoBehaviour {
+public class AppleTree : MonoBehaviour
+{
     [Header("Set in Inspector")]
 
     // Pefab for instantiating apples
